@@ -1,1 +1,0 @@
-# Dette er ei testfil for å sjekka upload.
