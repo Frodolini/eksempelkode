@@ -1,6 +1,8 @@
 # Laga eit rutenett med løkker (og kanskje funksjon).
 
 import turtle as t
+t.hideturtle()
+t.speed(10)
 y=0
 t.fillcolor("yellow")
 t.begin_fill()
