@@ -2,8 +2,10 @@
 
 import turtle as t
 y=0
-for r in range(5):
-    for k in range(3):
+t.fillcolor("yellow")
+t.begin_fill()
+for r in range(2):
+    for k in range(2):
         for l in range (4):
             t.forward(50)
             t.left(90)
@@ -16,4 +18,5 @@ for r in range(5):
     t.goto(0,y)
     t.down()
     #t.write(t.pos())
-
+t.end_fill()
+input()
